@@ -25,14 +25,18 @@ function Card() {
         <div className="grid grid-cols-2 gap-2">
           <NavLink
             to="/about"
-            className=" h-22 text-gray-100 border border-gray-100 flex items-center justify-center"
+            className=" h-[50px] text-gray-100 border border-gray-100 flex items-center justify-center"
           >
             <button>ABOUT ME</button>
           </NavLink>
+          <NavLink
+            to="/Portfolio"
+            className=" h-[50px] text-gray-100 border border-gray-100 flex items-center justify-center"
+          >
+            <button>PORTFOLIO</button>
+          </NavLink>
 
-          <button className=" h-[50px] text-gray-100 border border-gray-100 flex items-center justify-center">
-            PORTFOLIO
-          </button>
+          
         </div>
         <div className="grid grid-cols-1 gap-1 ">
           {/* <button className="bg-red-700 button h-[50px] text-white flex items-center justify-center">
