@@ -4,15 +4,9 @@ import { NavLink } from "react-router-dom";
 
 function Card() {
   return (
-    <div>
-      <div className="flex  rounded   flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800">
+    <div className="flex justify-center">
+      <div className="flex  flex-col w-[90%] sm:max-w-96 mt-8 gap-4 text-gray-800">
         <div>
-          {/* techstack */}
-          <div></div>
-          {/* image */}
-          {/* <div>
-            <img src={ucheImg} alt="" />
-          </div> */}
           <div className="relative inline-block">
             <img src={ucheImg} alt="" className="w-full h-auto" />
             <div className="absolute  inset-0 flex items-end justify-center">
@@ -22,6 +16,7 @@ function Card() {
             </div>
           </div>
         </div>
+        
         <div className="grid grid-cols-2 gap-2">
           <NavLink
             to="/about"
@@ -35,8 +30,6 @@ function Card() {
           >
             <button>PORTFOLIO</button>
           </NavLink>
-
-          
         </div>
         <div className="grid grid-cols-1 gap-1 ">
           {/* <button className="bg-red-700 button h-[50px] text-white flex items-center justify-center">

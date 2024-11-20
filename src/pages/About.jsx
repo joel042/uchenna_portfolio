@@ -6,13 +6,8 @@ function About() {
   return (
     <div>
       <div className="flex  rounded  flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800">
-        <div>
-          {/* image */}
-          {/* <div>
-            <img src={ucheImg} alt="" />
-          </div> */}
-        </div>
-
+      
+        <p className="text-white text-4xl border-b">ABOUT ME</p>
         {/* about me  */}
         <div className="grid grid-cols-2 gap-2">
           <NavLink
@@ -21,8 +16,8 @@ function About() {
           >
             <h2 className="px-1">&lt;Introduction /&gt;</h2>
             <div className=" grid grid-cols-1  gap-1 p-1 text-xs">
-              <p className="border  p-1">
-                My name is Uchenna Joel Eze I am a results-driven Website
+              <p className="border-t border-l   p-1">
+                My name is <span className='font-bold text-sm underline text-red-200'>Uchenna Joel Eze</span>  I am a results-driven Website
                 Developer with expertise in front-end and back-end technologies,
                 including React.js, Node.js, Express.js, and MongoDB.
               </p>

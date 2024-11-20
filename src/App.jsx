@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="">
+    <div className=" w-full mx-auto container">
       {/* <Card /> */}
       <Routes>
         <Route path="/" element={<Home />} />
