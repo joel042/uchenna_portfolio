@@ -6,7 +6,6 @@ function About() {
   return (
     <div>
       <div className="flex  rounded  flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800">
-      
         <p className="text-white text-4xl border-b">ABOUT ME</p>
         {/* about me  */}
         <div className="grid grid-cols-2 gap-2">
@@ -21,8 +20,11 @@ function About() {
                 Developer with expertise in front-end and back-end technologies,
                 including React.js, Node.js, Express.js, and MongoDB.
               </p>
+             
+             
             </div>
           </NavLink>
+
           <NavLink
             to="/"
             className=" h-[200px] text-gray-100 border border-gray-100 flex "
