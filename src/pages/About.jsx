@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function About() {
   return (
     <div>
-      <div className="flex  rounded    flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800">
+      <div className="flex  rounded  flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800">
         <div>
           {/* image */}
           {/* <div>
