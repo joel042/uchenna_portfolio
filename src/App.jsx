@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from "./pages/Portfolio";
 import { Routes, Route } from 'react-router-dom';
+import Footer from './components/footer';
 // import Card from './components/Card';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/Portfolio" element={<Portfolio />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

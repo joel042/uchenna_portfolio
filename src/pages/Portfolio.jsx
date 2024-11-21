@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import SwiperContainer from '../components/SwiperContainer';
+import DigitalClock from '../components/Time';
+
 
 
 function Portfolio() {
@@ -12,7 +14,7 @@ function Portfolio() {
        <SwiperContainer />
        
    <div>
-
+    <DigitalClock />
    </div>
       
 
