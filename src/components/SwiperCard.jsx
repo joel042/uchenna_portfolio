@@ -18,10 +18,18 @@ function SwiperCard({images, demoLink,description, githubLink,gitHubText,demoTex
               </div>
               <div className="flex ">
                 <button className="border w-full hover:bg-red-700">
-                  <a href={githubLink}>{gitHubText}</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={githubLink}
+                  >
+                    {gitHubText}
+                  </a>
                 </button>
                 <button className="border-t border-r w-full hover:bg-[#209978] border-b">
-                  <a href={demoLink}>{demoText}</a>
+                  <a target="_blank" rel="noopener noreferrer" href={demoLink}>
+                    {demoText}
+                  </a>
                 </button>
               </div>
 

@@ -10,16 +10,21 @@ function Portfolio() {
     <div>
       <div className="flex  rounded  flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800">
         <p className="text-white text-4xl border-b">PORTFOLIO</p>
-       {/* slider  */}
-       <SwiperContainer />
-       
-   <div>
-    <DigitalClock />
-   </div>
-      
+        {/* slider  */}
+        <SwiperContainer />
+
+        <div>
+          <DigitalClock />
+        </div>
 
         <div className="grid grid-cols-1 gap-1 ">
-          <button className="button" type="button">
+          <a
+            href="https://drive.google.com/file/d/1pb7_6o-lsAnhqJcXSKV1S-dLxqQSlRfi/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+            type="button"
+          >
             <span className="button__text">DOWNLOAD CV</span>
             <span className="button__icon">
               <svg
@@ -34,10 +39,13 @@ function Portfolio() {
                 <path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path>
               </svg>
             </span>
-          </button>
-          <button className="bg-red-700 font-semibold h-[50px] text-white flex items-center justify-center">
+          </a>
+          <NavLink
+            to="/contact"
+            className="bg-red-700 hover:bg-red-800 transition duration-200 font-semibold h-[50px] text-white flex items-center justify-center"
+          >
             HIRE ME
-          </button>
+          </NavLink>
           <div className="flex justify-between mb-2 ">
             <div>
               <NavLink to="/" className="text-white underline text-xs">
@@ -46,10 +54,10 @@ function Portfolio() {
             </div>
             <div>
               <NavLink
-                to="/About"
+                to="/contact"
                 className="text-white  justify-end underline text-xs"
               >
-                About Me
+                Contact Me
               </NavLink>
             </div>
           </div>

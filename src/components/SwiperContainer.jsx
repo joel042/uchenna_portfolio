@@ -20,7 +20,7 @@ function SwiperContainer() {
         spaceBetween={20}
         slidesPerView={2}
         navigation
-        scrollbar={{ draggable: true }}
+        // scrollbar={{ draggable: true }}
         // pagination={{ clickable: true }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}

@@ -16,7 +16,7 @@ function Card() {
             </div>
           </div>
         </div>
-        
+
         <div className="grid grid-cols-2 gap-2">
           <NavLink
             to="/about"
@@ -36,7 +36,13 @@ function Card() {
            DOWNLOAD CV
           </button> */}
 
-          <button className="button" type="button">
+          <a
+            href="https://drive.google.com/file/d/1pb7_6o-lsAnhqJcXSKV1S-dLxqQSlRfi/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button"
+            type="button"
+          >
             <span className="button__text">DOWNLOAD CV</span>
             <span className="button__icon">
               <svg
@@ -51,10 +57,10 @@ function Card() {
                 <path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path>
               </svg>
             </span>
-          </button>
-          <button className="bg-red-700 font-semibold h-[50px] text-white flex items-center justify-center">
+          </a>
+          <NavLink to='/contact' className="bg-red-700 hover:bg-red-800 transition duration-200 font-semibold h-[50px] text-white flex items-center justify-center">
             HIRE ME
-          </button>
+          </NavLink>
         </div>
       </div>
     </div>
