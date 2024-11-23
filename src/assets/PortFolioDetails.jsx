@@ -50,7 +50,7 @@ const PortFolioDetails = [
     text1: "GITHUB",
     text2: "DEMO",
     description:
-      "built with React using Tailwind for styling and javascript for functionalities",
+      "Built with React using Tailwind for styling and javascript for functionalities",
   },
   {
     image: ExpenceImg,
@@ -86,7 +86,7 @@ const PortFolioDetails = [
     text1: "GITHUB",
     text2: "DEMO",
     description:
-      "built with React, Bootstrap for styling and JavaScript for fuctionalities",
+      "Built with React, Bootstrap for styling and JavaScript for fuctionalities",
   },
   {
     image: dimasImg,
