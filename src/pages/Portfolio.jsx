@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import SwiperContainer from '../components/SwiperContainer';
 import DigitalClock from '../components/Time';
+import SwiperContainerTwo from '../components/SwiperContainerTwo';
 
 
 
@@ -11,7 +12,15 @@ function Portfolio() {
       <div className="flex  rounded  flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800">
         <p className="text-white text-4xl border-b">PORTFOLIO</p>
         {/* slider  */}
-        <SwiperContainer />
+        <div>
+        <h1 className='text-white mb-2 border-l p-1'>  WEB 2 </h1>
+         <SwiperContainer /> 
+        </div>
+        <div>
+        <h1 className='text-white mb-2 border-l p-1 text-sm'> WEB 3 </h1>
+         <SwiperContainerTwo /> 
+        </div>
+        
 
         <div>
           <DigitalClock />

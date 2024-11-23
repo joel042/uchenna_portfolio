@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div>
       <div className="flex  rounded  flex-col w-[90%] sm:max-w-96 m-auto mt-14 gap-4 text-gray-800">
-        <p className="text-white text-4xl border-b">ABOUT ME</p>
+        <p className="text-white text-4xl border-b">CONTACT ME</p>
         {/* about me  */}
 
         {/* my tech stack       */}
@@ -36,7 +36,10 @@ function Contact() {
               />
             </div>
             <div>
-              <textarea
+              <textarea onChange={(e)=>{
+                console.log(e.target.value);
+              }}
+        
                 className="bg-transparent p-1  text-white  border focus:outline-none transition duration-200 h-40 w-full"
                 placeholder="Message"
                 type="textarea"
@@ -86,8 +89,7 @@ function Contact() {
                 </svg>
               </span>
             </a>
-            <button
-              onClick={console.log("clieck")}
+            <button 
               type="submit"
               className="bg-red-700 hover:bg-red-800 transition duration-200 font-semibold h-[50px] text-white flex items-center justify-center"
             >
